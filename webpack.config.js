@@ -1,6 +1,8 @@
 /**
  * Created by beijingweb on 2017/7/25.
  */
+//var webpack = require('webpack');
+
 module.exports = {
   //devtool: "source-map ",
   devtool: "eval-source-map ", //cheap-module-source-map //source-map //配置生成Source Maps，选择合适的选项
@@ -21,7 +23,6 @@ module.exports = {
   
   devServer: {
     contentBase: "./public",
-    colors: true,
     historyApiFallback: true,
     inline: true
   }

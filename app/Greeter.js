@@ -11,6 +11,10 @@ module.exports = function () {
   p.textContent = config.greetText;
   greet.appendChild(p);
   
+  var span = document.createElement('strong');
+  span.textContent = config.greetTextspan;
+  p.appendChild(span);
+  
   
   return greet;
 };
